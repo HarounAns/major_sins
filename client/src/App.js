@@ -18,7 +18,7 @@ const App = () => {
       <Col>
         <TableOfContents />
         {majorSins.map((ms, i) => (
-          <Container style={{ padding: '10px' }} key={i} id={i}>
+          <Container style={{ padding: '10px' }} key={ms.number} id={ms.number}>
             {SinCard(ms)}
           </Container>)
         )}
