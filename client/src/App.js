@@ -20,10 +20,10 @@ const App = () => {
             {SinCard(ms)}
           </Container>
         ))}
+        <a class="top" href="#">
+          Back to Top ↑
+        </a>
       </Col>
-      <a class="top" href="#">
-        Back to Top ↑
-      </a>
     </Container>
   );
 };

@@ -13,3 +13,4 @@ custom:
   client:
     bucketName: islamic-major-sins-bucket
     distributionFolder: client/build
+    errorDocument: index.html
